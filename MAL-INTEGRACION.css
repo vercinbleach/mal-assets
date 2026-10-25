@@ -1,0 +1,9 @@
+
+/* Añadir al FINAL del CSS actual. Alojar primero giorno-viento-mal.svg
+   en una URL HTTPS que sirva el archivo SVG original, sin convertirlo.
+   Reducir movimiento conserva el fondo estático del tema existente. */
+@media (prefers-reduced-motion: no-preference) {
+  :root {
+    --background: fixed center/cover url(https://image.myanimelist.net/ui/fkLITaJTefafxFKPGRzngps7jgCAUDLqqihQZ1YpyP6f2lQN1Vv-ePRvSyhly7Y8), fixed center/cover url("https://vercinbleach.github.io/mal-assets/giorno-viento-mal.svg") !important;
+  }
+}
